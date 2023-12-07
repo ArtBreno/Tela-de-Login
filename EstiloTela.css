@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.estilo{ 
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image:linear-gradient(90deg,red,purple,blue);
+}
+.filha{
+
+    height: 40vh;
+    width: 45vh;
+	background-color: black;
+	position: absolute;
+	margin-left: 37vw;
+	text-align: center;
+	margin-top: 34vh;
+	border-radius: 2vh;
+
+}
+.sub{
+	height: 6vh;
+	width: 10vw;
+	border-radius: 4vh;
+background-image: linear-gradient(20deg,purple,hotpink,red);
+
+}
+
+#Name{
+		position: relative;
+	border: 0px;
+	background-color: black;
+	padding-top: 4vh;
+	text-align: left;
+	outline: none;
+	border: none;
+
+}
+#Senha{
+		position: relative;
+	border: 0px;
+	background-color: black;
+	padding-top: 4vh;
+	text-align:left;
+	outline: none;
+	border: none;
+}
+input{
+	margin-top: 4vh;
+	font-size: 1.1em;
+}
+p{
+	font-size: 2em;
+}
+.sub:hover{
+	background-image: linear-gradient(10deg,black,red);
+	font-size: 1.3em;
+	transition: 1.5s;
+	 cursor: pointer;
+}
+
+
+
+
+
+
